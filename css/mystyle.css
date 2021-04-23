@@ -2,6 +2,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 .secondary-size {
@@ -25,6 +26,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.text-center{
+    text-align: center;
+}
 /* Custom text color */
 .txt-color-x-light {
     color: #FFF !important;
@@ -159,4 +163,18 @@ body {
 .footer-padding {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.cart-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
