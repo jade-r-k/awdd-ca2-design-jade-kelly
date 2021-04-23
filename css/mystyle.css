@@ -158,12 +158,6 @@ body {
     object-fit: cover;
 }
 
-.card-border {
-    border-style: solid;
-    border-width: 2px;
-    border-color: #111;
-}
-
 /* form control */
 .form-select:focus {
     border-color: #06c;
