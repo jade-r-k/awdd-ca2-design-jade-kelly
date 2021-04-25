@@ -3,6 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     overflow-x: hidden;
+    color: #111 !important;
 }
 
 .secondary-size {
